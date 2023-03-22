@@ -21,11 +21,14 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background: rgb(174,232,238);
+    background: radial-gradient(circle, rgba(174,232,238,1) 0%, rgba(148,172,233,1) 100%);
 }
 .tarjeta {
     width: 500px;
     height: 900px;
     background-color: #F7F7F7;
+    border-radius: 15px;
 }
 .titulo {
     display: flex;
@@ -51,16 +54,29 @@ img {
 }
 .label-text {
     margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 .label-result {
     width: 30%;
     height: 20px;
+    border-radius: 8px;
 }
 .primary-button {
     width: 30%;
+    height: 25px;
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: var(--md);
+    font-weight: bold;
 }
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.label-finish {
+    text-align: center;
 }
