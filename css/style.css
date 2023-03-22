@@ -1,0 +1,66 @@
+:root {
+    --black: 000000;
+    --white: #FFFFFF;
+    --very-light-pink : #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta {
+    width: 500px;
+    height: 900px;
+    background-color: #F7F7F7;
+}
+.titulo {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.picture-university {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+.formulario ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.label-text {
+    margin-bottom: 20px;
+}
+.label-result {
+    width: 30%;
+    height: 20px;
+}
+.primary-button {
+    width: 30%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
